@@ -22,7 +22,7 @@ Simply put, the viewport is the users visible area of the screen to display the 
 
 ### Controlling Viewport Zoom
 
-Did you ever visit a website on a mobile device and notice the site pages came up very small and you had to zoom in to see the content? Or perhaps the opposite wher ethe website page appeared larger than the screen area and you had to drag the content around to see the missing parts jus out of view? We can correct these types of issues by prevneting the device from trying to zoom to fit the content to screen. In order to tell a devices browser not to zoom in or out, we need to set the meta viewport in the head section of our pages. This way, our media queries can do their thing without the device trying to to handle sizing content for us.
+Did you ever visit a website on a mobile device and notice the site pages came up very small and you had to zoom in to see the content? Or perhaps the opposite wher ethe website page appeared larger than the screen area and you had to drag the content around to see the missing parts jus out of view? We can correct these types of issues by preventing the device from trying to zoom to fit the content to screen. In order to tell a devices browser not to zoom in or out, we need to set the meta viewport in the head section of our pages. This way, our media queries can do their thing without the device trying to to handle sizing content for us.
 
 ```html
 <!DOCTYPE html>
@@ -72,3 +72,5 @@ Then click the pink "Build" button and then the "download" link. I had to move m
 - [Modernizr](https://modernizr.com/)
 - [CSS Tricks - Meta Viewport](https://css-tricks.com/snippets/html/responsive-meta-tag/)
 
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/viewport-and-polyfills'>Viewport And Modernizr</a> on Learn.co and start learning to code for free.</p>
